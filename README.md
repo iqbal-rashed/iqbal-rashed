@@ -28,11 +28,11 @@
 ### Github Stats
 
 <div >
-<a href="#">
+<a href="https://github.com/iqbal-rashed?tab=repositories">
 <img src="https://raw.githubusercontent.com/iqbal-rashed/iqbal-rashed/main/generated/overview.svg#gh-dark-mode-only" />
-<img src="https://raw.githubusercontent.com/username/iqbal-rashed/main/generated/overview.svg#gh-light-mode-only" />
+<img src="https://raw.githubusercontent.com/iqbal-rashed/iqbal-rashed/main/generated/overview.svg#gh-light-mode-only" />
 </a>
-<a href="#">
+<a href="https://github.com/iqbal-rashed?tab=repositories">
 <img src="https://raw.githubusercontent.com/iqbal-rashed/iqbal-rashed/main/generated/languages.svg#gh-dark-mode-only" />
 <img src="https://raw.githubusercontent.com/iqbal-rashed/iqbal-rashed/main/generated/languages.svg#gh-light-mode-only" />
 </a>
