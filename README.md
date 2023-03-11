@@ -14,16 +14,13 @@
 ### Languages and Tools:
 
 <div>
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img align="left" alt="JavaScript" height ="42px"  src="https://raw.githubusercontent.com/iqbal-rashed/iqbal-rashed/main/icons/javascript/javascript.svg"> </a>
-<a href="https://www.typescriptlang.org/" target="_blank"><img align="left" alt="Typescirpt" height ="42px" src="https://raw.githubusercontent.com/iqbal-rashed/iqbal-rashed/main/icons/typescript/typescript.svg"></a>
-<a href="https://reactjs.org/" target="_blank"> <img align="left" alt="React" height ="42px" src="https://raw.githubusercontent.com/iqbal-rashed/iqbal-rashed/main/icons/react/react.svg"></a>
-<a href="https://nodejs.org" target="_blank"><img align="left" alt="Node.js" height ="42px" src="https://raw.githubusercontent.com/iqbal-rashed/iqbal-rashed/main/icons/node/node.svg"></a>
-<a href="https://nestjs.com/" target="_blank"> <img src="https://raw.githubusercontent.com/iqbal-rashed/iqbal-rashed/main/icons/nestjs/nestjs.svg" alt="figma" height='42px'/> </a>
-<a href="https://git-scm.com/" target="_blank"> <img src="https://raw.githubusercontent.com/iqbal-rashed/iqbal-rashed/main/icons/git-scm/git-scm.svg" align="left" alt="git" height='42px'/> </a>
-<a href="https://dotnet.microsoft.com/en-us/" target="_blank"> <img src="https://raw.githubusercontent.com/iqbal-rashed/iqbal-rashed/main/icons/figma/figma.svg" alt="figma" height='42px'/> </a>
-<a href="https://www.figma.com/" target="_blank"> <img src="https://raw.githubusercontent.com/iqbal-rashed/iqbal-rashed/main/icons/c%23/c%23.svg" alt="figma" height='42px'/> </a>
-<a href="https://www.docker.com/" target="_blank"> <img src="https://raw.githubusercontent.com/iqbal-rashed/iqbal-rashed/main/icons/docker/docker.svg" alt="figma" height='42px'/> </a>
+
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img align="left" alt="JavaScript" height ="42px"  src="https://raw.githubusercontent.com/iqbal-rashed/iqbal-rashed/main/icons/javascript/javascript.svg"></a>
+
+<a href="https://www.typescriptlang.org/" target="_blank"><img align="left" alt="Typescirpt" height ="42px" src="https://raw.githubusercontent.com/iqbal-rashed/iqbal-rashed/main/icons/typescript/typescript.svg"></a><a href="https://reactjs.org/" target="_blank"> <img align="left" alt="React" height ="42px" src="https://raw.githubusercontent.com/iqbal-rashed/iqbal-rashed/main/icons/react/react.svg"></a><a href="https://nodejs.org" target="_blank"><img align="left" alt="Node.js" height ="42px" src="https://raw.githubusercontent.com/iqbal-rashed/iqbal-rashed/main/icons/node/node.svg"></a><a href="https://nestjs.com/" target="_blank"> <img align="left" src="https://raw.githubusercontent.com/iqbal-rashed/iqbal-rashed/main/icons/nestjs/nestjs.svg" alt="nextjs" height='42px'/> </a><a href="https://git-scm.com/" target="_blank"> <img src="https://raw.githubusercontent.com/iqbal-rashed/iqbal-rashed/main/icons/git-scm/git-scm.svg" align="left" alt="git" height='42px'/> </a><a href="https://dotnet.microsoft.com/en-us/" target="_blank"> <img align="left" src="https://raw.githubusercontent.com/iqbal-rashed/iqbal-rashed/main/icons/figma/figma.svg" alt="figma" height='42px'/> </a><a href="https://www.figma.com/" target="_blank"> <img align="left" src="https://raw.githubusercontent.com/iqbal-rashed/iqbal-rashed/main/icons/c%23/c%23.svg" alt="csharp" height='42px'/> </a><a href="https://www.docker.com/" target="_blank"> <img align="left" src="https://raw.githubusercontent.com/iqbal-rashed/iqbal-rashed/main/icons/docker/docker.svg" alt="figma" height='42px'/> </a>
+
 </div>
+<br/>
 
 ### Github Stats
 
