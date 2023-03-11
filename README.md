@@ -27,14 +27,17 @@
 
 ### Github Stats
 
-<div >
-<a href="https://github.com/iqbal-rashed?tab=repositories">
-<img src="https://raw.githubusercontent.com/iqbal-rashed/iqbal-rashed/main/generated/overview.svg#gh-dark-mode-only" />
+<!--
+https://github.community/t/support-theme-context-for-images-in-light-vs-dark-mode/147981/84
+-->
+<a href="https://github.com/iqbal-rashed/iqbal-rashed#gh-dark-mode-only">
+<img src="https://github.com/iqbal-rashed/iqbal-rashed/blob/main/generated/overview.svg#gh-dark-mode-only" />
+<img src="https://github.com/iqbal-rashed/iqbal-rashed/blob/main/generated/languages.svg#gh-dark-mode-only" />
 </a>
-<a href="https://github.com/iqbal-rashed?tab=repositories">
-<img src="https://raw.githubusercontent.com/iqbal-rashed/iqbal-rashed/main/generated/languages.svg#gh-dark-mode-only" />
+<a href="https://github.com/iqbal-rashed/iqbal-rashed#gh-light-mode-only">
+<img src="https://github.com/iqbal-rashed/iqbal-rashed/blob/main/generated/overview.svg#gh-light-mode-only" />
+<img src="https://github.com/iqbal-rashed/iqbal-rashed/blob/main/generated/languages.svg#gh-light-mode-only" />
 </a>
-</div>
 
 <h3 align="left">Support:</h3>
 <p><a href="https://www.buymeacoffee.com/rashed.iqbal"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="rashed.iqbal" /></a></p><br><br>
