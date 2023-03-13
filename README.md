@@ -2,14 +2,16 @@
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 
-<a href="https://linkedin.com/in/iqbal-rashed" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="iqbal-rashed" height="30" width="40" /></a>
-<a href="https://dribbble.com/iqbal_rashed" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/dribbble.svg" alt="iqbal_rashed" height="30" width="40" /></a>
-<a href="https://www.leetcode.com/rashed_iqbal" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="rashed_iqbal" height="30" width="40" /></a>
-<a href="https://twitter.com/dev_rashediqbal" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="dev_rashediqbal" height="30" width="40" /></a>
-<a href="https://dev.to/rashed_iqbal" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="rashed_iqbal" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/iqbal-rashed" target="blank"><img align="left" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="iqbal-rashed" height="30" width="40" /></a>
+<a href="https://dribbble.com/iqbal_rashed" target="blank"><img align="left" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/dribbble.svg" alt="iqbal_rashed" height="30" width="40" /></a>
+<a href="https://www.leetcode.com/rashed_iqbal" target="blank"><img align="left" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="rashed_iqbal" height="30" width="40" /></a>
+<a href="https://twitter.com/dev_rashediqbal" target="blank"><img align="left" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="dev_rashediqbal" height="30" width="40" /></a>
+<a href="https://dev.to/rashed_iqbal" target="blank"><img align="left" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="rashed_iqbal" height="30" width="40" /></a>
 
 </p>
 </div>
+
+<br/>
 
 ### Languages and Tools:
 
@@ -23,7 +25,7 @@
 <br/>
 <br/>
 
-### Github Stats
+### Github Stats:
 
 <!--
 https://github.community/t/support-theme-context-for-images-in-light-vs-dark-mode/147981/84
