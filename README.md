@@ -38,5 +38,5 @@ https://github.community/t/support-theme-context-for-images-in-light-vs-dark-mod
 <img src="https://github.com/iqbal-rashed/iqbal-rashed/blob/main/generated/languages.svg#gh-light-mode-only" />
 </a>
 
-<h3 align="left">Support:</h3>
-<p><a href="https://www.buymeacoffee.com/rashed.iqbal"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="rashed.iqbal" /></a></p><br><br>
+<!-- <h3 align="left">Support:</h3>
+<p><a href="https://www.buymeacoffee.com/rashed.iqbal"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="rashed.iqbal" /></a></p><br><br> -->
