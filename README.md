@@ -1,5 +1,5 @@
 <div>
-<h3 align="left">Portfolio</h3>
+<h3 align="left">Portfolio:</h3>
 <p align="left">
 
 <a href="https://rashediqbal.me" target="blank"><img align="left" src="https://www.rashediqbal.me/icons/icon-48x48.png?v=734488de805d1fbda22d99cd58d765fe" alt="iqbal-rashed" height="30" width="40" /></a>
@@ -7,6 +7,7 @@
 
 </p>
 </div>
+</br>
 
 <div>
 <h3 align="left">Connect with me:</h3>
