@@ -2,7 +2,7 @@
 
 <div>
 
-<a href="https://rashediqbal.me" target="blank"><img  src="https://www.rashediqbal.me/icons/icon-48x48.png?v=734488de805d1fbda22d99cd58d765fe" alt="iqbal-rashed" height="42" width="42" /></a>
+<a href="https://rashediqbal.me" target="blank" ><img  src="https://www.rashediqbal.me/icons/icon-48x48.png?v=734488de805d1fbda22d99cd58d765fe" alt="iqbal-rashed" /></a>
 
 </div>
 
