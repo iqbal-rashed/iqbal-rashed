@@ -1,17 +1,14 @@
+### Portfolio:
+
 <div>
-<h3 align="left">Portfolio:</h3>
-<p align="left">
 
 <a href="https://rashediqbal.me" target="blank"><img align="left" src="https://www.rashediqbal.me/icons/icon-48x48.png?v=734488de805d1fbda22d99cd58d765fe" alt="iqbal-rashed" height="40" width="40" /></a>
 
-
-</p>
 </div>
-</br>
 
+
+### Connect with me:
 <div>
-<h3 align="left">Connect with me:</h3>
-<p align="left">
 
 <a href="https://linkedin.com/in/iqbal-rashed" target="blank"><img align="left" src="https://raw.githubusercontent.com/iqbal-rashed/iqbal-rashed/main/icons/linkedin/linkedin.svg" alt="iqbal-rashed" height="30" width="40" /></a>
 <a href="https://www.npmjs.com/~rashed_iqbal" target="blank"><img align="left" src="https://raw.githubusercontent.com/iqbal-rashed/iqbal-rashed/main/icons/npm/npm.svg" alt="iqbal_rashed" height="30" width="40" /></a>
@@ -20,7 +17,7 @@
 <a href="https://twitter.com/dev_rashediqbal" target="blank"><img align="left" src="https://raw.githubusercontent.com/iqbal-rashed/iqbal-rashed/main/icons/twitter/twitter.svg" alt="dev_rashediqbal" height="30" width="40" /></a>
 <a href="https://dev.to/rashed_iqbal" target="blank"><img align="center" src="https://raw.githubusercontent.com/iqbal-rashed/iqbal-rashed/main/icons/devto/devto.svg" alt="rashed_iqbal" height="30" width="40" /></a>
 
-</p>
+
 </div>
 
 
