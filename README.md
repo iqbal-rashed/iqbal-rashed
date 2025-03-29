@@ -2,13 +2,14 @@
 
 <div>
 
-<a href="https://rashediqbal.me" target="blank"><img align="left" src="https://www.rashediqbal.me/icons/icon-48x48.png?v=734488de805d1fbda22d99cd58d765fe" alt="iqbal-rashed" height="42" width="42" /></a>
+<a href="https://rashediqbal.me" target="blank"><img  src="https://www.rashediqbal.me/icons/icon-48x48.png?v=734488de805d1fbda22d99cd58d765fe" alt="iqbal-rashed" height="42" width="42" /></a>
 
 </div>
 
-</br>
+
 
 ### Connect with me:
+
 <div>
 
 <a href="https://linkedin.com/in/iqbal-rashed" target="blank"><img align="left" src="https://raw.githubusercontent.com/iqbal-rashed/iqbal-rashed/main/icons/linkedin/linkedin.svg" alt="iqbal-rashed" height="30" width="40" /></a>
