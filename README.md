@@ -1,6 +1,6 @@
 ### Hi there, I'm Rashed Iqbal 👋
 
-Full-stack developer and open-source enthusiast. I build Node.js libraries, CLI tools, and web apps — mostly in TypeScript, with Python and Golang on the side.
+Full-stack developer and open-source enthusiast. I build Node.js libraries, CLI tools, and web apps — mostly in TypeScript, with Python and Golang on the side. Lately diving deep into AI — building AI agents, LLM-powered tools, and agentic workflows.
 
 ### Portfolio:
 
