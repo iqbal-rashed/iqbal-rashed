@@ -12,12 +12,12 @@
 
 <div>
 
-<a href="https://linkedin.com/in/iqbal-rashed" target="blank"><img align="left" src="https://raw.githubusercontent.com/iqbal-rashed/iqbal-rashed/main/icons/linkedin/linkedin.svg" alt="iqbal-rashed" height="30" width="40" /></a>
-<a href="https://www.npmjs.com/~rashed_iqbal" target="blank"><img align="left" src="https://raw.githubusercontent.com/iqbal-rashed/iqbal-rashed/main/icons/npm/npm.svg" alt="iqbal_rashed" height="30" width="40" /></a>
-<a href="https://www.leetcode.com/rashed_iqbal" target="blank"><img align="left" src="https://raw.githubusercontent.com/iqbal-rashed/iqbal-rashed/main/icons/leetcode/leetcode.svg" alt="rashed_iqbal" height="30" width="40" /></a>
-<a href="https://dribbble.com/iqbal_rashed" target="blank"><img align="left" src="https://raw.githubusercontent.com/iqbal-rashed/iqbal-rashed/main/icons/dribbble/dribbble.svg" alt="iqbal_rashed" height="30" width="40" /></a>
-<a href="https://twitter.com/dev_rashediqbal" target="blank"><img align="left" src="https://raw.githubusercontent.com/iqbal-rashed/iqbal-rashed/main/icons/twitter/twitter.svg" alt="dev_rashediqbal" height="30" width="40" /></a>
-<a href="https://dev.to/rashed_iqbal" target="blank"><img align="center" src="https://raw.githubusercontent.com/iqbal-rashed/iqbal-rashed/main/icons/devto/devto.svg" alt="rashed_iqbal" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/iqbal-rashed" target="blank"><img align="left" src="https://raw.githubusercontent.com/iqbal-rashed/iqbal-rashed/main/icons/linkedin/linkedin.svg" alt="iqbal-rashed" height="30px"/></a>
+<a href="https://www.npmjs.com/~rashed_iqbal" target="blank"><img align="left" src="https://raw.githubusercontent.com/iqbal-rashed/iqbal-rashed/main/icons/npm/npm.svg" alt="iqbal_rashed" height="30" /></a>
+<a href="https://www.leetcode.com/rashed_iqbal" target="blank"><img align="left" src="https://raw.githubusercontent.com/iqbal-rashed/iqbal-rashed/main/icons/leetcode/leetcode.svg" alt="rashed_iqbal" height="30"  /></a>
+<a href="https://dribbble.com/iqbal_rashed" target="blank"><img align="left" src="https://raw.githubusercontent.com/iqbal-rashed/iqbal-rashed/main/icons/dribbble/dribbble.svg" alt="iqbal_rashed" height="30"  /></a>
+<a href="https://twitter.com/dev_rashediqbal" target="blank"><img align="left" src="https://raw.githubusercontent.com/iqbal-rashed/iqbal-rashed/main/icons/twitter/twitter.svg" alt="dev_rashediqbal" height="30" /></a>
+<a href="https://dev.to/rashed_iqbal" target="blank"><img align="center" src="https://raw.githubusercontent.com/iqbal-rashed/iqbal-rashed/main/icons/devto/devto.svg" alt="rashed_iqbal" height="30"  /></a>
 
 
 </div>
