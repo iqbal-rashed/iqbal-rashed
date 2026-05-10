@@ -24,7 +24,7 @@ class Queries(object):
         username: str,
         access_token: str,
         session: aiohttp.ClientSession,
-        max_connections: int = 100,
+        max_connections: int = 10,
     ):
         self.username = username
         self.access_token = access_token
@@ -73,15 +73,14 @@ class Queries(object):
         :return: deserialized REST JSON output
         """
 
-        if params is None:
-            params = dict()
-        if path.startswith("/"):
-            path = path[1:]
-        headers = {
-            "Authorization": f"token {self.access_token}",
-        }
-
-        for attempt in range(8):
+        for _ in range(60):
+            headers = {
+                "Authorization": f"token {self.access_token}",
+            }
+            if params is None:
+                params = dict()
+            if path.startswith("/"):
+                path = path[1:]
             try:
                 async with self.semaphore:
                     r_async = await self.session.get(
@@ -90,15 +89,17 @@ class Queries(object):
                         params=tuple(params.items()),
                     )
                 if r_async.status == 202:
-                    await asyncio.sleep(3 * (attempt + 1))
+                    # print(f"{path} returned 202. Retrying...")
+                    print(f"A path returned 202. Retrying...")
+                    await asyncio.sleep(2)
                     continue
-                if r_async.status == 200:
-                    result = await r_async.json()
-                    if result is not None:
-                        return result
-                return dict()
+
+                result = await r_async.json()
+                if result is not None:
+                    return result
             except:
                 print("aiohttp failed for rest query")
+                # Fall back on non-async requests
                 async with self.semaphore:
                     r_requests = requests.get(
                         f"https://api.github.com/{path}",
@@ -106,12 +107,13 @@ class Queries(object):
                         params=tuple(params.items()),
                     )
                     if r_requests.status_code == 202:
-                        await asyncio.sleep(3 * (attempt + 1))
+                        print(f"A path returned 202. Retrying...")
+                        await asyncio.sleep(2)
                         continue
                     elif r_requests.status_code == 200:
                         return r_requests.json()
-                return dict()
-        print(f"Skipping {path} after repeated 202 responses.")
+        # print(f"There were too many 202s. Data for {path} will be incomplete.")
+        print("There were too many 202s. Data for this repository will be incomplete.")
         return dict()
 
     @staticmethod
@@ -479,25 +481,24 @@ Languages:
         """
         if self._lines_changed is not None:
             return self._lines_changed
-
-        async def fetch_repo_lines(repo: str) -> Tuple[int, int]:
+        additions = 0
+        deletions = 0
+        for repo in await self.repos:
             r = await self.queries.query_rest(f"/repos/{repo}/stats/contributors")
-            added, deleted = 0, 0
             for author_obj in r:
+                # Handle malformed response from the API by skipping this repo
                 if not isinstance(author_obj, dict) or not isinstance(
                     author_obj.get("author", {}), dict
                 ):
                     continue
-                if author_obj.get("author", {}).get("login", "") != self.username:
+                author = author_obj.get("author", {}).get("login", "")
+                if author != self.username:
                     continue
-                for week in author_obj.get("weeks", []):
-                    added += week.get("a", 0)
-                    deleted += week.get("d", 0)
-            return added, deleted
 
-        results = await asyncio.gather(*[fetch_repo_lines(r) for r in await self.repos])
-        additions = sum(a for a, _ in results)
-        deletions = sum(d for _, d in results)
+                for week in author_obj.get("weeks", []):
+                    additions += week.get("a", 0)
+                    deletions += week.get("d", 0)
+
         self._lines_changed = (additions, deletions)
         return self._lines_changed
 
@@ -510,13 +511,14 @@ Languages:
         if self._views is not None:
             return self._views
 
-        async def fetch_repo_views(repo: str) -> int:
+        total = 0
+        for repo in await self.repos:
             r = await self.queries.query_rest(f"/repos/{repo}/traffic/views")
-            return sum(v.get("count", 0) for v in r.get("views", []))
+            for view in r.get("views", []):
+                total += view.get("count", 0)
 
-        results = await asyncio.gather(*[fetch_repo_views(r) for r in await self.repos])
-        self._views = sum(results)
-        return self._views
+        self._views = total
+        return total
 
 
 ###############################################################################
