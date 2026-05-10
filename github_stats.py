@@ -2,6 +2,7 @@
 
 import asyncio
 import os
+import random
 from typing import Dict, List, Optional, Set, Tuple, Any, cast
 
 import aiohttp
@@ -480,25 +481,46 @@ Languages:
         if self._lines_changed is not None:
             return self._lines_changed
 
-        async def fetch_repo_lines(repo: str) -> Tuple[int, int]:
-            r = await self.queries.query_rest(f"/repos/{repo}/stats/contributors")
-            added, deleted = 0, 0
-            for author_obj in r:
-                if not isinstance(author_obj, dict) or not isinstance(
-                    author_obj.get("author", {}), dict
-                ):
-                    continue
-                if author_obj.get("author", {}).get("login", "") != self.username:
-                    continue
-                for week in author_obj.get("weeks", []):
-                    added += week.get("a", 0)
-                    deleted += week.get("d", 0)
-            return added, deleted
+        repos = list(await self.repos)
+        headers = {"Authorization": f"token {self.queries.access_token}"}
 
-        results = await asyncio.gather(*[fetch_repo_lines(r) for r in await self.repos])
-        additions = sum(a for a, _ in results)
-        deletions = sum(d for _, d in results)
-        self._lines_changed = (additions, deletions)
+        async def fetch_repo_lines(repo: str) -> Tuple[int, int]:
+            url = f"https://api.github.com/repos/{repo}/stats/contributors"
+            for attempt in range(6):
+                try:
+                    async with self.queries.semaphore:
+                        resp = await self.queries.session.get(url, headers=headers)
+                    if resp.status == 200:
+                        data = await resp.json()
+                        a = d = 0
+                        for contributor in data or []:
+                            if contributor.get("author", {}).get("login", "").lower() == self.username.lower():
+                                for week in contributor.get("weeks", []):
+                                    a += week.get("a", 0)
+                                    d += week.get("d", 0)
+                        return (a, d)
+                    elif resp.status == 202:
+                        # Jitter prevents all retries from thundering back simultaneously
+                        await asyncio.sleep(10 * (attempt + 1) + random.uniform(0, 5))
+                        continue
+                except Exception:
+                    pass
+                break
+            return (0, 0)
+
+        # Batching lets GitHub finish computing one group before the next arrives
+        batch_size = 15
+        added = deleted = 0
+        for i in range(0, len(repos), batch_size):
+            batch = repos[i : i + batch_size]
+            results = await asyncio.gather(*[fetch_repo_lines(r) for r in batch])
+            for a, d in results:
+                added += a
+                deleted += d
+            if i + batch_size < len(repos):
+                await asyncio.sleep(3)
+
+        self._lines_changed = (added, deleted)
         return self._lines_changed
 
     @property
